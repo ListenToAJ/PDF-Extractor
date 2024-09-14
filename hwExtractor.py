@@ -16,5 +16,5 @@ for i in range(len(reader.pages)):
 #~ Output
 print('"' + searchQuery + '" found on pages: ' + str(pagesToKeep))
 writer.append(reader, pagesToKeep)
-output = open(input_file + " HW Only.pdf", "wb")
+output = open(input_file[:-4] + " HW Only.pdf", "wb")
 writer.write(output)
