@@ -1,3 +1,5 @@
+#!env/bin/python3
+
 from pypdf import PdfReader, PdfWriter
 import sys
 
